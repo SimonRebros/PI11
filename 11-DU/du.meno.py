@@ -111,4 +111,5 @@ canvas.create_rectangle(x +2*d, y + 3 * d , x + 3*d, y + 4 * d,fill=b)
 canvas.create_rectangle(x +3*d, y + 4 * d , x + 4*d, y + 5 * d,fill=b)
 
 
+
 canvas.mainloop()
