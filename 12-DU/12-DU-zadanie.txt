@@ -1,0 +1,2 @@
+1. dokoncit domceky
+2. vytvorit novy file 12-DU.py skopirovat kod z a upravit  11-DU tak aby sa nam nase meno opakovalo tak ako domceky

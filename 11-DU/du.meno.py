@@ -4,7 +4,8 @@ canvas.pack()
 
 x = 5
 y = 5
-d = 10
+d = 12
+
 r = "red"
 b = "black"
 yellow = "yellow"
@@ -26,8 +27,7 @@ canvas.create_rectangle(x + 4 * d, y + 4 * d , x + 5 * d, y + 5 * d,fill=b)
 canvas.create_rectangle(x + 4 * d, y + 5 * d , x + 5 * d, y + 6 * d,fill=b)
 
 x = 6 * d
-y = 5
-d = 10
+
 r = "red"
 b = "black"
 yellow = "yellow"
@@ -45,8 +45,7 @@ canvas.create_rectangle(x  , y + 6 * d , x +  d, y + 7 * d,fill=b)
 canvas.create_rectangle(x +2*d , y + 6 * d , x + 3* d, y + 7 * d,fill=b)
 
 x = 10 * d
-y = 5
-d = 10
+
 b = "black"
 canvas.create_rectangle(x, y , x + d, y + d,fill=b)
 canvas.create_rectangle(x + d, y +d , x + 2 * d, y + 2*d,fill=b)
@@ -68,8 +67,7 @@ canvas.create_rectangle(x  , y + 6 * d , x +  d, y + 7 * d,fill=b)
 canvas.create_rectangle(x +2*d , y + 2 * d , x + 3* d, y + 3 * d,fill=b)
 
 x = 15 * d
-y = 5
-d = 10
+
 b = "black"
 canvas.create_rectangle(x+2*d, y , x + 3*d, y + d,fill=b)
 canvas.create_rectangle(x + 3*d, y  , x + 4 * d, y + d,fill=b)
@@ -89,8 +87,7 @@ canvas.create_rectangle(x + 3*d, y +6*d , x + 4 * d, y + 7*d,fill=b)
 canvas.create_rectangle(x + 4 * d, y +6*d , x + 5 * d, y +  7*d,fill=b)
 
 x = 22 * d
-y = 5
-d = 10
+
 b = "black"
 canvas.create_rectangle(x +4*d, y + 6 * d , x + 5*d, y + 7 * d,fill=b)
 canvas.create_rectangle(x +4*d, y + 5 * d , x + 5*d, y + 6 * d,fill=b)
