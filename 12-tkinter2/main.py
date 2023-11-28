@@ -16,8 +16,8 @@ for j in range(498 // d):
         canvas.create_line(x + d // 4, y + d * 1.5, x + d // 1.25, y + d * 1.5)
         canvas.create_rectangle(x+d//4,y+d*1.25,x+d//1.25,y+d*1.75)
         canvas.create_line(x+d//2,y+d*1.25,x+d//2,y+d*1.75)
-        x = x + d
-    y = y + d
+        x = x + 2*d
+    y = y + 2*d
     x = xx
 
 
