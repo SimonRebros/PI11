@@ -3,9 +3,9 @@ canvas = tkinter.Canvas(width=900, height=500)
 canvas.pack()
 
 x = 5
-xx = x
+xx=x
 y = 5
-d = 12
+d = 5
 dlzka = 7*d
 vyska = 7*d
 
