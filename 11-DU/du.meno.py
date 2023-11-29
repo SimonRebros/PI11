@@ -5,8 +5,8 @@ canvas.pack()
 x = 5
 xx = x
 y = 5
-d = 12
-dlzka = 7*d
+d = 5
+dlzka = 26*d
 vyska = 7*d
 
 r = "red"
@@ -114,7 +114,7 @@ for j in range(498 // vyska):
         canvas.create_rectangle(x +d, y + 2 * d , x + 2*d, y + 3 * d,fill=b)
         canvas.create_rectangle(x +2*d, y + 3 * d , x + 3*d, y + 4 * d,fill=b)
         canvas.create_rectangle(x +3*d, y + 4 * d , x + 4*d, y + 5 * d,fill=b)
-        x = x + dlzka
+        x = x + dlzka + d
     y = y + vyska + d
     x = xx
 
